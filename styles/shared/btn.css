@@ -1,0 +1,63 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 43px;
+    text-decoration: none;
+    text-align: center;
+    border: solid 2px var(--btn-dark);
+    border-radius: 50px;
+    width: 100%;
+    transition: background-color 0.2s, border-color 0.2s;
+    outline: transparent;
+    font-size: var(--fs-16);
+    line-height: 130%;
+    font-family: "Golos Text", sans-serif;
+    font-weight: 500;
+}
+
+.btn--dark {
+    background-color: var(--btn-dark);
+    color: white;
+}
+
+.btn--light {
+    color: var(--btn-dark);
+}
+
+.btn--dark:hover,
+.btn--dark:focus {
+    background-color: var(--yellow);
+    border-color: var(--yellow);
+    color: var(--btn-dark);
+}
+
+.btn--light:hover,
+.btn--light:focus {
+    background-color: var(--btn-dark);
+    color: white;
+}
+
+.btn--small {
+    width: fit-content;
+    padding: 6px 9px;
+    line-height: 120%;
+    color: var(--blue);
+    border-color: var(--blue);
+}
+
+.btn--small:hover {
+    color: white;
+    background-color: var(--blue);
+}
+
+@media screen and (min-width: 580px) {
+    .btn {
+        padding: 13px 48px;
+    }
+
+    .btn--small {
+        padding: 6px 9px;
+    }
+    
+}

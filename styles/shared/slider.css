@@ -1,0 +1,31 @@
+.slider__btn {
+    border: none;
+    border-radius: 100%;
+    background-color: var(--text-color);
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.slider__btn:hover {
+    background-color: var(--yellow);
+}
+
+.slider__btn--unactive {
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+.slider__btn--unactive:hover {
+    background-color: var(--text-color);
+}
+
+@media screen and (min-width: 1366px) {
+    .slider__btn {
+        width: 44px;
+        height: 44px;
+    }
+}

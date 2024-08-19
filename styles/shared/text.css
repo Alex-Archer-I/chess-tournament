@@ -1,0 +1,61 @@
+.text {
+    font-family: "Golos Text", sans-serif;
+    font-size: var(--fs-18);
+    line-height: 120%;
+}
+
+.text--hero {
+    line-height: 130%;
+}
+
+.text--table {
+    font-size: var(--fs-20);
+    opacity: 0.7;
+}
+
+.text--stage {
+    font-weight: 500;
+}
+
+.text--marker {
+    font-size: var(--fs-20);
+    font-weight: 600;
+}
+
+.text--name {
+    font-size: var(--fs-24);
+    font-weight: 600;
+}
+
+.text--index {
+    font-size: var(--fs-16);
+}
+
+.text--bold {
+    font-weight: bold;
+}
+
+.text--blue {
+    color: var(--blue);
+}
+
+.text--line {
+    text-decoration: line-through;
+    text-decoration-color: var(--red);
+}
+
+@media screen and (min-width: 580px) {
+
+    .text--hero {
+        text-align: center;
+    }
+
+    .text--stages {
+        font-size: var(--fs-20);
+    }
+
+    .text--stage {
+        font-weight: 500;
+        font-size: var(--fs-20);
+    }
+}

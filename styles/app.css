@@ -1,0 +1,15 @@
+@import 'initial.css';
+
+@import 'shared/section.css';
+@import 'shared/title.css';
+@import 'shared/text.css';
+@import 'shared/btn.css';
+@import 'shared/slider.css';
+
+@import 'sections/hero.css';
+@import 'sections/lection.css';
+@import 'sections/table.css';
+@import 'sections/line.css';
+@import 'sections/stages.css';
+@import 'sections/patricipants.css';
+@import 'sections/footer.css';

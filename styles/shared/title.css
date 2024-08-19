@@ -1,0 +1,47 @@
+.title {
+    font-family: "Merriweather", serif;
+    text-transform: uppercase;
+    font-size: var(--fs-36);
+    line-height: 110%;
+    font-weight: normal;
+}
+
+.title--small {
+    font-size: var(--fs-28);
+    line-height: 135%;
+}
+
+.title--center {
+    display: block;
+    text-align: center;
+}
+
+.title--red {
+    color: var(--red);
+    font-weight: bold;
+}
+
+.title--line {
+    font-size: var(--fs-16);
+}
+
+@media screen and (min-width: 580px) {
+    .title {
+        font-size: var(--fs-54);
+        line-height: 120%;
+    }
+    
+    .title--hero {
+        font-size: var(--fs-60);
+        line-height: 110%;
+    }
+
+    .title--small {
+        font-size: var(--fs-36);
+        line-height: 135%;
+    }
+
+    .title--line {
+        font-size: var(--fs-22);
+    }
+}
